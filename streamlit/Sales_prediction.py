@@ -1,30 +1,4 @@
-"""
-****************************************************************************************************
-  __               _   _           _       
- / _|             | | | |         | |      
-| |_ _ __ ___  ___| |_| |__  _   _| |_ ___ 
-|  _| '__/ _ \/ __| __| '_ \| | | | __/ _ \
-| | | | | (_) \__ \ |_| |_) | |_| | ||  __/
-|_| |_|  \___/|___/\__|_.__/ \__, |\__\___|
-                              __/ |        
-                             |___/         
-Quickstart: Tasty Bytes - Snowpark 101 for Data Science
-Script:       streamlit_app.py    
-Create Date:  2023-05-19 
-Author:       Marie Coolsaet
-Copyright(c): 2023 Snowflake Inc. All rights reserved.
-****************************************************************************************************
-Description: 
-    A Streamlit app for surfacing predicted shift sales for locations where truck drivers can park.
-****************************************************************************************************
-SUMMARY OF CHANGES
-Date(yyyy-mm-dd)    Author              Comments
-------------------- ------------------- ------------------------------------------------------------
-2023-05-19          Marie Coolsaet      Initial Quickstart Release
-2024-07-03          Katy Haynie         Updated the map to work in SiS, use model in Registry
-****************************************************************************************************
 
-"""
 
 # BEFORE YOU BEGIN 
 # Add the following packages to the Packages dropdown at the top of the UI:
