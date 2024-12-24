@@ -1,42 +1,4 @@
-/***************************************************************************************************
-  _______           _            ____          _             
- |__   __|         | |          |  _ \        | |            
-    | |  __ _  ___ | |_  _   _  | |_) | _   _ | |_  ___  ___ 
-    | | / _` |/ __|| __|| | | | |  _ < | | | || __|/ _ \/ __|
-    | || (_| |\__ \| |_ | |_| | | |_) || |_| || |_|  __/\__ \
-    |_| \__,_||___/ \__| \__, | |____/  \__, | \__|\___||___/
-                          __/ |          __/ |               
-                         |___/          |___/            
-Quickstart:   Tasty Bytes - Zero to Snowflake - Governance with Snowflake Horizon
-Version:      v2   
-Author:       Jacob Kranzler
-Copyright(c): 2024 Snowflake Inc. All rights reserved.
-****************************************************************************************************
- Governance with Snowflake Horizon
-  Protect Your Data
-    1 - System Defined Roles and Privileges
-    2 - Role Based Access Control
-    3 - Tag-Based Masking
-    4 - Row-Access Policies
-    5 - Aggregation Policies
-    6 - Projection Policies
-
-  Know Your Data
-    7 – Sensitive Data Classification
-    8 – Sensitive Custom Classification
-    9 – Access History (Read and Writes)
-
- Discovery with Snowflake Horizon
-    10 - Universal Search
-****************************************************************************************************
-SUMMARY OF CHANGES
-Date(yyyy-mm-dd)    Author              Comments
-------------------- ------------------- ------------------------------------------------------------
-2024-05-23          Jacob Kranzler      Initial Release
-***************************************************************************************************/
-
-/*----------------------------------------------------------------------------------
-Before we begin, the Snowflake Access Control Framework is based on:
+the Snowflake Access Control Framework is based on:
   • Role-based Access Control (RBAC): Access privileges are assigned to roles, which 
     are in turn assigned to users.
   • Discretionary Access Control (DAC): Each object has an owner, who can in turn 
