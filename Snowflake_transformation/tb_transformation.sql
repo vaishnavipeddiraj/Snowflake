@@ -1,31 +1,4 @@
-/***************************************************************************************************
-  _______           _            ____          _             
- |__   __|         | |          |  _ \        | |            
-    | |  __ _  ___ | |_  _   _  | |_) | _   _ | |_  ___  ___ 
-    | | / _` |/ __|| __|| | | | |  _ < | | | || __|/ _ \/ __|
-    | || (_| |\__ \| |_ | |_| | | |_) || |_| || |_|  __/\__ \
-    |_| \__,_||___/ \__| \__, | |____/  \__, | \__|\___||___/
-                          __/ |          __/ |               
-                         |___/          |___/            
-Quickstart:   Tasty Bytes - Zero to Snowflake - Transformation
-Version:      v2
-Author:       Jacob Kranzler
-Copyright(c): 2024 Snowflake Inc. All rights reserved.
-****************************************************************************************************
-Transformation
-    1 - Zero Copy Cloning
-    2 - Using Persisted Query Results
-    3 - Adding and Updating a Column in a Table
-    4 - Time-Travel for Table Restore
-    5 - Table Swap, Drop and Undrop
-****************************************************************************************************
-SUMMARY OF CHANGES
-Date(yyyy-mm-dd)    Author              Comments
-------------------- ------------------- ------------------------------------------------------------
-2024-05-23          Jacob Kranzler      Initial Release
-***************************************************************************************************/
 
-/*----------------------------------------------------------------------------------
 Step 1 - Zero Copy Cloning
 
  As part of Tasty Bytes Fleet Analysis, our Developer has been tasked with creating
